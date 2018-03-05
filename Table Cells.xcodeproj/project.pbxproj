@@ -14,6 +14,8 @@
 		4B41B3F7204DDBB60058C02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B41B3F5204DDBB60058C02F /* LaunchScreen.storyboard */; };
 		4B41B402204DDBB60058C02F /* Table_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41B401204DDBB60058C02F /* Table_CellsTests.swift */; };
 		4B41B40D204DDBB60058C02F /* Table_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41B40C204DDBB60058C02F /* Table_CellsUITests.swift */; };
+		4B41B41B204DDC0F0058C02F /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41B41A204DDC0F0058C02F /* NameAndColorCell.swift */; };
+		4B41B41D204DE4B70058C02F /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B41B41C204DE4B70058C02F /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4B41B408204DDBB60058C02F /* Table CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table CellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B41B40C204DDBB60058C02F /* Table_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_CellsUITests.swift; sourceTree = "<group>"; };
 		4B41B40E204DDBB60058C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41B41A204DDC0F0058C02F /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
+		4B41B41C204DE4B70058C02F /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4B41B3F3204DDBB60058C02F /* Assets.xcassets */,
 				4B41B3F5204DDBB60058C02F /* LaunchScreen.storyboard */,
 				4B41B3F8204DDBB60058C02F /* Info.plist */,
+				4B41B41A204DDC0F0058C02F /* NameAndColorCell.swift */,
+				4B41B41C204DE4B70058C02F /* NameAndColorCell.xib */,
 			);
 			path = "Table Cells";
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B41B41D204DE4B70058C02F /* NameAndColorCell.xib in Resources */,
 				4B41B3F7204DDBB60058C02F /* LaunchScreen.storyboard in Resources */,
 				4B41B3F4204DDBB60058C02F /* Assets.xcassets in Resources */,
 				4B41B3F2204DDBB60058C02F /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B41B41B204DDC0F0058C02F /* NameAndColorCell.swift in Sources */,
 				4B41B3EF204DDBB60058C02F /* ViewController.swift in Sources */,
 				4B41B3ED204DDBB60058C02F /* AppDelegate.swift in Sources */,
 			);
